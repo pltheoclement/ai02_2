@@ -31,6 +31,7 @@ clauses de bases sur chaque case :
 -1 v -3
 -2 v -3
 -4 v -5
+ 4 v  5
 -1 v -4
 -3 v -5
             
