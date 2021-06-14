@@ -1,1 +1,2 @@
 c ceci est le fichier dimacs des clauses du démineur animaux
+p cnf 5  x
