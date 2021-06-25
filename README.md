@@ -40,6 +40,7 @@ fonction pour convertir une phrase en variable et inversement (cell to var, var 
 
 
 ****Explication du programme :****
+
 Pour lancer le programme :
     - se placer dans le path ou se situe le fichier python et le client, puis lancer : py .\projet.py
 
