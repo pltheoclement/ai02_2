@@ -34,35 +34,14 @@ clauses de bases sur chaque case :
  4 v  5
 -1 v -4
 -3 v -5
-            
-
-
+        
 fonction pour convertir une phrase en variable et inversement (cell to var, var to cell)
 
-répertoire de travail du PROJET : 
-- client/
-- serveur/
-    * bin/
-        crocomine_serveur.sce 
-    * cartes/
-        croco1.croco
-        croco2.croco
-
-quand on execute : ./serveur/bin/crocomine.sce 
-: 8000 serveur:cartes
-pour python : ATOM avec mypy
-
-tout sur machine 
--> lancer serveur ( executable : port,emplacement cartes(dossier))
--> ouvrir autre fenetre et faire du python dessus
--> importer module qui va bien / fichier d'exemple pour tester ( lancer sous forme impérative pour voir réponse serveur )
-3 msg au serveur : "coucou, se présenter" (ping), "vouloir nouvelle carte" , requete de jeu ( soit chord, soit guess, soit discover)
-renvoie sous forme triplet: statut,message,infos(dict avec mots clés)
 
 
 ****Explication du programme :****
 Pour lancer le programme :
-    - se placer dans le path ou se situer le fichier python, puis lancer : py .\projet.py
+    - se placer dans le path ou se situe le fichier python et le client, puis lancer : py .\projet.py
 
 Le programme ajoute premièrement les clauses de bases sur chaque case de la grille
 
