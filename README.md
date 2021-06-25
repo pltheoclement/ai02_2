@@ -65,4 +65,6 @@ Si je trouve qu'il y a un animal dans la case [i,j] alors je guess cet animal et
 Si je trouve qu'il n'y a pas les 3 animaux sur la case [i,j] alors je peux discover cette case et je récupère les infos
 
 Si après un passage sur toutes les cases potentielles d'animaux on ne sait pas conclure, alors on fait un random discover en choisissant la première case de la liste
+
+Point faible du programme: après plusieurs découvertes / guess d'animaux le programme n'arrive pas à finir la plupart des cartes si plusieurs animaux et lignes,colonnes > 5 ,  je vais essayer d'apporter des modifications pour le repassage lundi.
     
