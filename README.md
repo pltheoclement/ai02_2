@@ -59,7 +59,6 @@ tout sur machine
 3 msg au serveur : "coucou, se présenter" (ping), "vouloir nouvelle carte" , requete de jeu ( soit chord, soit guess, soit discover)
 renvoie sous forme triplet: statut,message,infos(dict avec mots clés)
 
-Lors d'un GG, passer a la grille suivante, ne pas tenter de contredire le serveur en tentant une autre action etc ( même principe si KO)
 
 ****Explication du programme :****
 
