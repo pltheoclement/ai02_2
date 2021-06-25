@@ -15,8 +15,8 @@ clauses : 5 variables par case: tigre,croco,requin,eau,terre
 Nombre de variables total pour une grille = 5 * nbligne * nbcol
 valeurs : 
 - tigre : 1
-- croco : 2
-- requin : 3
+- croco : 3
+- requin : 2
 - eau : 4
 - terre : 5
 ex clauses : -tigre v -eau
