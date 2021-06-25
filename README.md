@@ -61,6 +61,8 @@ renvoie sous forme triplet: statut,message,infos(dict avec mots clés)
 
 
 ****Explication du programme :****
+Pour lancer le programme :
+    - se placer dans le path ou se situer le fichier python, puis lancer : py .\projet.py
 
 Le programme ajoute premièrement les clauses de bases sur chaque case de la grille
 
