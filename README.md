@@ -1,5 +1,5 @@
     # IA02 Projet 
-
+Clément Douale, groupe 66
 Projet IA02 sur le problème du démineur avec les tigres, crocodiles et requins
 
 API: 
