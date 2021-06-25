@@ -42,8 +42,11 @@ fonction pour convertir une phrase en variable et inversement (cell to var, var 
 ****Explication du programme :****
 
 Pour lancer le programme :
+
     - se placer dans le path ou se situe le fichier python et le client, puis lancer : py .\projet.py
+
     - Si il fini la map correctement sans erreur ou en renvoyant une erreur, relancer py .\projet.py pour la map suivante, etc
+    
     - Si il ne finit pas la map en étant bloqué dans le programme dans une boucle infinie, faire ctrl+c et relancer py .\projet.py pour la map suivante
 
 Le programme ajoute premièrement les clauses de bases sur chaque case de la grille
