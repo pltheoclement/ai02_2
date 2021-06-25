@@ -61,7 +61,7 @@ renvoie sous forme triplet: statut,message,infos(dict avec mots clés)
 
 Lors d'un GG, passer a la grille suivante, ne pas tenter de contredire le serveur en tentant une autre action etc ( même principe si KO)
 
-**Explication du programme :**
+****Explication du programme :****
     Le programme ajoute premièrement les clauses de bases sur chaque case de la grille
     Le programme fait ensuite un discover sur la case donnée par l'API et récupère une liste d'info, qu'il va transformer en nouvelles clauses qu'il va ajoutée aux anciennes.
     Il utilise nottament deux listes: Case_sans_animal et AnimalPossible, qui vont lui permettre d'ajouter les clauses au bon endroit et de tester les guess et discover aussi sur les bonnes cases
