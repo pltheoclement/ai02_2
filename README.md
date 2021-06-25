@@ -63,9 +63,7 @@ Lors d'un GG, passer a la grille suivante, ne pas tenter de contredire le serveu
 
 **Explication du programme :**
     Le programme ajoute premièrement les clauses de bases sur chaque case de la grille
-    
     Le programme fait ensuite un discover sur la case donnée par l'API et récupère une liste d'info, qu'il va transformer en nouvelles clauses qu'il va ajoutée aux anciennes.
-
     Il utilise nottament deux listes: Case_sans_animal et AnimalPossible, qui vont lui permettre d'ajouter les clauses au bon endroit et de tester les guess et discover aussi sur les bonnes cases
     Pour chaque info récupéré dans Infos, on regarde donc si il y a un prox_count, si il n'est pas présent alors c'est une case avec un potentiel animal, si il est présent alors il n'y a pas d'animal sur cette case.
     Pour chaque case ou il y a un potentiel animal, je test ensuite avec gophersat les différente possibilités :
@@ -77,4 +75,6 @@ Lors d'un GG, passer a la grille suivante, ne pas tenter de contredire le serveu
         - est ce qu'il n'y a pas de requin?
     Si je trouve qu'il y a un animal dans la case [i,j] alors je guess cet animal et je récupère les infos
     Si je trouve qu'il n'y a pas les 3 animaux sur la case [i,j] alors je peux discover cette case et je récupère les infos
+
+    Si après un passage sur toutes les cases potentielles d'animaux on ne sait pas conclure, alors on fait un random discover en choisissant la première case de la liste
     
