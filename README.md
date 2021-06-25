@@ -2,15 +2,6 @@
 Clément Douale, groupe 66
 Projet IA02 sur le problème du démineur avec les tigres, crocodiles et requins
 
-API: 
-info [ {
-    pos : (i,j)
-    field : "sea"/"land"
-    proxCount : (#tiger,#shark,#croco) // Optionnal
-},
-... ]
-
-DIMACS avec tout les infos qu'on a 
 clauses : 5 variables par case: tigre,croco,requin,eau,terre
 Nombre de variables total pour une grille = 5 * nbligne * nbcol
 valeurs : 
