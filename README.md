@@ -63,4 +63,9 @@ Si je trouve qu'il n'y a pas les 3 animaux sur la case [i,j] alors je peux disco
 Si après un passage sur toutes les cases potentielles d'animaux on ne sait pas conclure, alors on fait un random discover en choisissant la première case de la liste
 
 Point faible du programme: après plusieurs découvertes / guess d'animaux le programme n'arrive pas à finir la plupart des cartes si plusieurs animaux et lignes,colonnes > 5 ,  je vais essayer d'apporter des modifications pour le repassage lundi, mais étant en entreprise en présentiel, je ne pourrais peut-être pas participer à ce nouvel essai en fonction de l'horaire.
-    
+
+
+**Ce qui a été ajouté pour le rattrapage afin de faire fonctionner le programme :**
+- j'avais inversé croco et requin à un endroit du code ( quand je regarde les voisins d'une case prox_count) avec cpt1 et mer1 qui étaient aussi inversés ce qui me mettait pas les bonnes clauses à beaucoup d'endroits
+- J'ai rajouté une boucle de lancement de nouvelles map à chaque fois que je termine une map ou que j'échoue sur une ajouter
+- Petite amélioration pour valider plus de cartes : j'ai ajouté les clauses négatives quand je parcours les voisins d'un prox_count, alors que dans la version précédente je n'avais que les clauses positives -> grâce à cela je peux déduire plus de choses.
