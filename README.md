@@ -67,5 +67,5 @@ Point faible du programme: après plusieurs découvertes / guess d'animaux le pr
 
 **Ce qui a été ajouté pour le rattrapage afin de faire fonctionner le programme :**
 - j'avais inversé croco et requin à un endroit du code ( quand je regarde les voisins d'une case prox_count) avec cpt1 et mer1 qui étaient aussi inversés ce qui me mettait pas les bonnes clauses à beaucoup d'endroits
-- J'ai rajouté une boucle de lancement de nouvelles map à chaque fois que je termine une map ou que j'échoue sur une ajouter
+- J'ai rajouté une boucle de lancement de nouvelles map à chaque fois que je termine une map ou que j'échoue sur une ajouter -> pour lancer maintenant il suffit donc de faire seulement une fois 'py  .\projet.py et il va parcourir les cartes une par une
 - Petite amélioration pour valider plus de cartes : j'ai ajouté les clauses négatives quand je parcours les voisins d'un prox_count, alors que dans la version précédente je n'avais que les clauses positives -> grâce à cela je peux déduire plus de choses.
