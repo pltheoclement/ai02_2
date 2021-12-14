@@ -6,8 +6,8 @@ import subprocess
 import random
 from pprint import pprint
 info=dict
-tutu=123
-print(tutu)
+theophane=123
+print(theophane)
 
 def cell_to_var(i: int, j: int, n: int, val: int) -> int:
     return (i*(n*5)) + j*5 + val
