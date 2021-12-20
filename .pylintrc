@@ -159,8 +159,9 @@ bad-names=foo,
           baz,
           toto,
           tutu,
+          theophane,
           tata,
-          theophane
+          
 
 # Naming style matching correct class attribute names.
 class-attribute-naming-style=any
